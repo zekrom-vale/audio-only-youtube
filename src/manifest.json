@@ -27,6 +27,9 @@
   },
   "content_scripts": [
     {
+      "exclude_matches": [
+        "*://soundcloud.com/*"
+        ],
       "matches": [
         "*://*/*"
       ],
