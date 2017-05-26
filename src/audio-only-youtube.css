@@ -1,5 +1,5 @@
 .audio_only_div {
-    z-index: 9999;
+    z-index: 10;
     background-color: #272B2E;
     color: #CC6633;
     cursor: pointer;
@@ -12,6 +12,11 @@
     font-weight: 600;
     pointer-events: none;
     opacity: 0.5;
+}
+
+#movie_player:hover .audio_only_div,  
+#movie_player:active .audio_only_div{
+    display:none
 }
 
 .alert_text {
